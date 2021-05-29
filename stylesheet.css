@@ -1,0 +1,54 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-accent {
+    color: #02A689;
+}
+.navbar{
+    padding-left:55px;
+    
+    height:800px;
+    width:319px;
+    float:left;
+   
+    background: #F5F7F9;
+    border: 1px solid #D4DADF;
+    
+    
+}
+.navbar ul{
+    display: block;
+}
+.navbar li{
+    
+    display: inherit;
+    
+}
+.navbar li a{
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:block;
+}
+.active,.navbar li a:hover{
+    border: 0.73px solid #D4DADF;
+   
+    display: block;
+    background:white;
+}
+
+.contact{
+    position:absolute;
+    top:90%;
+    left:73px;
+    
+}
